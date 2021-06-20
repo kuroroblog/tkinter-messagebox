@@ -73,7 +73,7 @@ def getShowWarning():
 
 # messageboxのshowinfoのdialogを表示する。
 def getShowInfo():
-    # 情報を提供するmessagebox dialogになります。
+    # 情報を伝えるmessagebox dialogになります。
     # 第一引数 : タイトル文字列
     # 第二引数 : メッセージ内容
     # 戻り値 : OK
@@ -94,4 +94,4 @@ if __name__ == "__main__":
     # getAskOkCancel()
     # getAskYesNo()
     # getAskRetryCancel()
-    # getAskYesNoCancel()
+    getAskYesNoCancel()
