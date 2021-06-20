@@ -71,13 +71,13 @@ def getShowWarning():
     # レスポンスの内容を表示する。
     print("showwarning", res)
 
-# messageboxのshowinfoのdialogを表示する。
+# messageboxのshowinfoを表示する。
 def getShowInfo():
-    # 情報を伝えるmessagebox dialogになります。
+    # 情報を伝えるmessageboxになります。
     # 第一引数 : タイトル文字列
     # 第二引数 : メッセージ内容
     # 第三引数以降(任意) : option
-    # 戻り値 : OK
+    # 戻り値 : ok
     res = messagebox.showinfo("showinfo", "showinfoです。")
     # レスポンスの内容を表示する。
     print("showinfo", res)
