@@ -47,7 +47,7 @@ def getAskQuestion():
     # 第一引数 : タイトル文字列
     # 第二引数 : メッセージ内容
     # 第三引数以降(任意) : option
-    # 戻り値 : yes(Yes), no(No)
+    # 戻り値 : yes, no
     res = messagebox.askquestion("askquestion", "askquestionです。")
     # レスポンスの内容を表示する。
     print("askquestion", res)
@@ -92,9 +92,9 @@ if __name__ == "__main__":
     root.withdraw()
 
     # getShowInfo()
-    getShowWarning()
+    # getShowWarning()
     # getShowError()
-    # getAskQuestion()
+    getAskQuestion()
     # getAskOkCancel()
     # getAskYesNo()
     # getAskRetryCancel()
