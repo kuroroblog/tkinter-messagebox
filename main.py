@@ -41,11 +41,12 @@ def getAskOkCancel():
     # レスポンスの内容を表示する。
     print("askokcancel", res)
 
-# messageboxのaskquestionのdialogを表示する。
+# messageboxのaskquestionを表示する。
 def getAskQuestion():
-    # Yes, Noの質問を提供するmessagebox dialogになります。
+    # Yes, Noの質問を伝えるmessageboxになります。
     # 第一引数 : タイトル文字列
     # 第二引数 : メッセージ内容
+    # 第三引数以降(任意) : option
     # 戻り値 : yes(Yes), no(No)
     res = messagebox.askquestion("askquestion", "askquestionです。")
     # レスポンスの内容を表示する。
