@@ -51,11 +51,12 @@ def getAskQuestion():
     # レスポンスの内容を表示する。
     print("askquestion", res)
 
-# messageboxのshowerrorのdialogを表示する。
+# messageboxのshowerrorを表示する。
 def getShowError():
-    # エラーを提供するmessagebox dialogになります。
+    # エラーを伝えるmessageboxになります。
     # 第一引数 : タイトル文字列
     # 第二引数 : メッセージ内容
+    # 第三引数以降(任意) : option
     # 戻り値 : OK
     res = messagebox.showerror("showerror", "showerrorです。")
     # レスポンスの内容を表示する。
