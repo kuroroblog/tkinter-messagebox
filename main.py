@@ -96,6 +96,6 @@ if __name__ == "__main__":
     # getShowError()
     # getAskQuestion()
     # getAskOkCancel()
-    # getAskYesNo()
-    getAskRetryCancel()
+    getAskYesNo()
+    # getAskRetryCancel()
     # getAskYesNoCancel()
