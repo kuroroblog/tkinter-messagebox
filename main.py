@@ -11,12 +11,12 @@ def getAskYesNoCancel():
     # レスポンスの内容を表示する。
     print("askyesnocancel", res)
 
-# messageboxのaskretrycancelのdialogを表示する。
+# messageboxのaskretrycancelを表示する。
 def getAskRetryCancel():
-    # Retry, Cancelの質問を提供するmessagebox dialogになります。
+    # Retry, Cancelの質問を伝えるmessageboxになります。
     # 第一引数 : タイトル文字列
     # 第二引数 : メッセージ内容
-    # 戻り値 : True(Retry), False(Cancel)
+    # 戻り値 : True, False
     res = messagebox.askretrycancel("askretrycancel", "askretrycancelです。")
     # レスポンスの内容を表示する。
     print("askretrycancel", res)
