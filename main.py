@@ -3,54 +3,60 @@ from tkinter import messagebox
 
 # messageboxのaskyesnocancelのdialogを表示する。
 def getAskYesNoCancel():
-    # 質問を提供するmessagebox dialogになります。
+    # Yes, No, Cancelの質問を提供するmessagebox dialogになります。
     # 第一引数 : タイトル文字列
     # 第二引数 : メッセージ内容
+    # 戻り値 : True (Yes), False (No), None (Cancel)
     res = messagebox.askyesnocancel("askyesnocancel", "askyesnocancelです。")
     # レスポンスの内容を表示する。
     print("askyesnocancel", res)
 
 # messageboxのaskretrycancelのdialogを表示する。
 def getAskRetryCancel():
-    # 質問を提供するmessagebox dialogになります。
+    # Retry, Cancelの質問を提供するmessagebox dialogになります。
     # 第一引数 : タイトル文字列
     # 第二引数 : メッセージ内容
+    # 戻り値 : True(Retry), False(Cancel)
     res = messagebox.askretrycancel("askretrycancel", "askretrycancelです。")
     # レスポンスの内容を表示する。
     print("askretrycancel", res)
 
 # messageboxのaskyesnoのdialogを表示する。
 def getAskYesNo():
-    # 質問を提供するmessagebox dialogになります。
+    # Yes, Noの質問を提供するmessagebox dialogになります。
     # 第一引数 : タイトル文字列
     # 第二引数 : メッセージ内容
+    # 戻り値 : True (Yes), False (No)
     res = messagebox.askyesno("askyesno", "askyesnoです。")
     # レスポンスの内容を表示する。
     print("askyesno", res)
 
 # messageboxのaskokcancelのdialogを表示する。
 def getAskOkCancel():
-    # 質問を提供するmessagebox dialogになります。
+    # OK, Cancelの質問を提供するmessagebox dialogになります。
     # 第一引数 : タイトル文字列
     # 第二引数 : メッセージ内容
+    # 戻り値 : True(OK), False(Cancel)
     res = messagebox.askokcancel("askokcancel", "askokcancelです。")
     # レスポンスの内容を表示する。
     print("askokcancel", res)
 
 # messageboxのaskquestionのdialogを表示する。
 def getAskQuestion():
-    # 質問を提供するmessagebox dialogになります。
+    # Yes, Noの質問を提供するmessagebox dialogになります。
     # 第一引数 : タイトル文字列
     # 第二引数 : メッセージ内容
+    # 戻り値 : yes(Yes), no(No)
     res = messagebox.askquestion("askquestion", "askquestionです。")
     # レスポンスの内容を表示する。
     print("askquestion", res)
 
 # messageboxのshowerrorのdialogを表示する。
 def getShowError():
-    # 警告を提供するmessagebox dialogになります。
+    # エラーを提供するmessagebox dialogになります。
     # 第一引数 : タイトル文字列
     # 第二引数 : メッセージ内容
+    # 戻り値 : OK
     res = messagebox.showerror("showerror", "showerrorです。")
     # レスポンスの内容を表示する。
     print("showerror", res)
@@ -60,6 +66,7 @@ def getShowWarning():
     # 警告を提供するmessagebox dialogになります。
     # 第一引数 : タイトル文字列
     # 第二引数 : メッセージ内容
+    # 戻り値 : OK
     res = messagebox.showwarning("showwarning", "showwarningです。")
     # レスポンスの内容を表示する。
     print("showwarning", res)
@@ -69,6 +76,7 @@ def getShowInfo():
     # 情報を提供するmessagebox dialogになります。
     # 第一引数 : タイトル文字列
     # 第二引数 : メッセージ内容
+    # 戻り値 : OK
     res = messagebox.showinfo("showinfo", "showinfoです。")
     # レスポンスの内容を表示する。
     print("showinfo", res)
