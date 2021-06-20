@@ -76,6 +76,7 @@ def getShowInfo():
     # 情報を伝えるmessagebox dialogになります。
     # 第一引数 : タイトル文字列
     # 第二引数 : メッセージ内容
+    # 第三引数以降(任意) : option
     # 戻り値 : OK
     res = messagebox.showinfo("showinfo", "showinfoです。")
     # レスポンスの内容を表示する。
