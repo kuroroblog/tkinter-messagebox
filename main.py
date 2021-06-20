@@ -31,12 +31,12 @@ def getAskYesNo():
     # レスポンスの内容を表示する。
     print("askyesno", res)
 
-# messageboxのaskokcancelのdialogを表示する。
+# messageboxのaskokcancelを表示する。
 def getAskOkCancel():
-    # OK, Cancelの質問を提供するmessagebox dialogになります。
+    # OK, Cancelの質問を伝えるmessageboxになります。
     # 第一引数 : タイトル文字列
     # 第二引数 : メッセージ内容
-    # 戻り値 : True(OK), False(Cancel)
+    # 戻り値 : True, False
     res = messagebox.askokcancel("askokcancel", "askokcancelです。")
     # レスポンスの内容を表示する。
     print("askokcancel", res)
