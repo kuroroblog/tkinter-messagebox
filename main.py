@@ -1,12 +1,12 @@
 import tkinter as tk
 from tkinter import messagebox
 
-# messageboxのaskyesnocancelのdialogを表示する。
+# messageboxのaskyesnocancelを表示する。
 def getAskYesNoCancel():
-    # Yes, No, Cancelの質問を提供するmessagebox dialogになります。
+    # Yes, No, Cancelの質問を伝えるmessageboxになります。
     # 第一引数 : タイトル文字列
     # 第二引数 : メッセージ内容
-    # 戻り値 : True (Yes), False (No), None (Cancel)
+    # 戻り値 : True, False, None
     res = messagebox.askyesnocancel("askyesnocancel", "askyesnocancelです。")
     # レスポンスの内容を表示する。
     print("askyesnocancel", res)
