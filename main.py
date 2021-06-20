@@ -61,12 +61,13 @@ def getShowError():
     # レスポンスの内容を表示する。
     print("showerror", res)
 
-# messageboxのshowwarningのdialogを表示する。
+# messageboxのshowwarningを表示する。
 def getShowWarning():
-    # 警告を提供するmessagebox dialogになります。
+    # 警告を伝えるmessageboxになります。
     # 第一引数 : タイトル文字列
     # 第二引数 : メッセージ内容
-    # 戻り値 : OK
+    # 第三引数以降(任意) : option
+    # 戻り値 : ok
     res = messagebox.showwarning("showwarning", "showwarningです。")
     # レスポンスの内容を表示する。
     print("showwarning", res)
