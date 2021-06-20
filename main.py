@@ -90,10 +90,10 @@ if __name__ == "__main__":
     root.withdraw()
 
     # getShowInfo()
-    # getShowWarning()
+    getShowWarning()
     # getShowError()
     # getAskQuestion()
     # getAskOkCancel()
     # getAskYesNo()
     # getAskRetryCancel()
-    getAskYesNoCancel()
+    # getAskYesNoCancel()
