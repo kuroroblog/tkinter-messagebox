@@ -57,7 +57,7 @@ def getShowError():
     # 第一引数 : タイトル文字列
     # 第二引数 : メッセージ内容
     # 第三引数以降(任意) : option
-    # 戻り値 : OK
+    # 戻り値 : ok
     res = messagebox.showerror("showerror", "showerrorです。")
     # レスポンスの内容を表示する。
     print("showerror", res)
