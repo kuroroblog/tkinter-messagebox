@@ -3,7 +3,7 @@ from tkinter import messagebox
 
 # messageboxのaskyesnocancelを表示する。
 def getAskYesNoCancel():
-    # Yes, No, Cancelの質問を伝えるmessageboxになります。
+    # Yes, No, Cancelの質問メッセージを伝える、messageboxになります。
     # 第一引数 : タイトル文字列
     # 第二引数 : メッセージ内容
     # 戻り値 : True, False, None
@@ -13,7 +13,7 @@ def getAskYesNoCancel():
 
 # messageboxのaskretrycancelを表示する。
 def getAskRetryCancel():
-    # Retry, Cancelの質問を伝えるmessageboxになります。
+    # Retry, Cancelの質問メッセージを伝える、messageboxになります。
     # 第一引数 : タイトル文字列
     # 第二引数 : メッセージ内容
     # 戻り値 : True, False
@@ -23,7 +23,7 @@ def getAskRetryCancel():
 
 # messageboxのaskyesnoを表示する。
 def getAskYesNo():
-    # Yes, Noの質問を伝えるmessageboxになります。
+    # Yes, Noの質問メッセージを伝える、messageboxになります。
     # 第一引数 : タイトル文字列
     # 第二引数 : メッセージ内容
     # 戻り値 : True, False
@@ -33,7 +33,7 @@ def getAskYesNo():
 
 # messageboxのaskokcancelを表示する。
 def getAskOkCancel():
-    # OK, Cancelの質問を伝えるmessageboxになります。
+    # OK, Cancelの質問メッセージを伝える、messageboxになります。
     # 第一引数 : タイトル文字列
     # 第二引数 : メッセージ内容
     # 戻り値 : True, False
@@ -43,7 +43,7 @@ def getAskOkCancel():
 
 # messageboxのaskquestionを表示する。
 def getAskQuestion():
-    # Yes, Noの質問を伝えるmessageboxになります。
+    # Yes, Noの質問メッセージを伝える、messageboxになります。
     # 第一引数 : タイトル文字列
     # 第二引数 : メッセージ内容
     # 第三引数以降(任意) : option
@@ -54,7 +54,7 @@ def getAskQuestion():
 
 # messageboxのshowerrorを表示する。
 def getShowError():
-    # エラーを伝えるmessageboxになります。
+    # エラーメッセージを伝える、messageboxになります。
     # 第一引数 : タイトル文字列
     # 第二引数 : メッセージ内容
     # 第三引数以降(任意) : option
@@ -65,7 +65,7 @@ def getShowError():
 
 # messageboxのshowwarningを表示する。
 def getShowWarning():
-    # 警告を伝えるmessageboxになります。
+    # 警告メッセージを伝える、messageboxになります。
     # 第一引数 : タイトル文字列
     # 第二引数 : メッセージ内容
     # 第三引数以降(任意) : option
@@ -76,7 +76,7 @@ def getShowWarning():
 
 # messageboxのshowinfoを表示する。
 def getShowInfo():
-    # 情報を伝えるmessageboxになります。
+    # お知らせメッセージを伝える、messageboxになります。
     # 第一引数 : タイトル文字列
     # 第二引数 : メッセージ内容
     # 第三引数以降(任意) : option
